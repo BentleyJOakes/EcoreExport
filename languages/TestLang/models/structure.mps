@@ -58,10 +58,26 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="2yrNSTMPFev">
-    <property role="EcuMT" value="2926160593626248095" />
-    <property role="TrG5h" value="A" />
+  <node concept="PlHQZ" id="5r$Y3PbIpVY">
+    <property role="EcuMT" value="6261402324098981630" />
+    <property role="TrG5h" value="Action" />
+    <property role="3GE5qa" value="action" />
+  </node>
+  <node concept="1TIwiD" id="5r$Y3PbIpWd">
+    <property role="EcuMT" value="6261402324098981645" />
+    <property role="3GE5qa" value="action" />
+    <property role="TrG5h" value="AssignAction" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5r$Y3PbIpYp" role="1TKVEi">
+      <property role="IQ2ns" value="6261402324098981785" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="var" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5r$Y3PbIpXk" resolve="Variable" />
+    </node>
+    <node concept="PrWs8" id="5r$Y3PbIvUV" role="PzmwI">
+      <ref role="PrY4T" node="5r$Y3PbIpVY" resolve="Action" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5r$Y3PbGwQA">
     <property role="EcuMT" value="6261402324098485670" />
@@ -342,7 +358,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="action" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="el3l:5r$Y3PbIpVY" resolve="Action" />
+      <ref role="20lvS9" node="5r$Y3PbIpVY" resolve="Action" />
     </node>
     <node concept="PrWs8" id="2yrNSTMFPoy" role="PzmwI">
       <ref role="PrY4T" node="2yrNSTMFPot" resolve="Requirement" />
@@ -367,7 +383,7 @@
       <property role="IQ2ns" value="2926160593623958667" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="action" />
-      <ref role="20lvS9" to="el3l:5r$Y3PbIpVY" resolve="Action" />
+      <ref role="20lvS9" node="5r$Y3PbIpVY" resolve="Action" />
     </node>
   </node>
   <node concept="1TIwiD" id="5r$Y3PbGwdj">
@@ -387,7 +403,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="action" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="el3l:5r$Y3PbIpVY" resolve="Action" />
+      <ref role="20lvS9" node="5r$Y3PbIpVY" resolve="Action" />
     </node>
     <node concept="PrWs8" id="2yrNSTMFPoA" role="PzmwI">
       <ref role="PrY4T" node="2yrNSTMFPot" resolve="Requirement" />
