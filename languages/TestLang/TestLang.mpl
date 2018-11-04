@@ -46,7 +46,6 @@
   </generators>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">52c820d7-4a9e-4716-8e7f-1bab3456fa8c(ContractLang)</dependency>
     <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
   </dependencies>
   <languageVersions>
