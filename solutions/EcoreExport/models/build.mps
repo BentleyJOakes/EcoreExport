@@ -2,7 +2,7 @@
 <model ref="r:38f695fe-16cb-4903-b666-c4572e4e9a12(EcoreExport.build)">
   <persistence version="9" />
   <languages>
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="5" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
   </languages>
@@ -95,10 +95,12 @@
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
+        <child id="3570488090019868128" name="packagingType" index="pUk7w" />
       </concept>
       <concept id="6592112598314499027" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginDependency" flags="ng" index="m$_yC">
         <reference id="6592112598314499066" name="target" index="m$_y1" />
       </concept>
+      <concept id="3570488090019868065" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_AutoPluginLayoutType" flags="ng" index="pUk6x" />
       <concept id="1500819558095907805" name="jetbrains.mps.build.mps.structure.BuildMps_Group" flags="ng" index="2G$12M">
         <child id="1500819558095907806" name="modules" index="2G$12L" />
       </concept>
@@ -138,6 +140,7 @@
         </node>
         <node concept="m$_wl" id="5Hzhnywseh2" role="39821P">
           <ref role="m_rDy" node="5HzhnywsebR" resolve="ExportPlugin" />
+          <node concept="pUk6x" id="1wTpbHhVoXh" role="pUk7w" />
         </node>
       </node>
     </node>
@@ -157,7 +160,7 @@
                 <node concept="2Ry0Ak" id="5Hzhnywsebt" role="2Ry0An">
                   <property role="2Ry0Am" value="Software" />
                   <node concept="2Ry0Ak" id="5HzhnywsebA" role="2Ry0An">
-                    <property role="2Ry0Am" value="MPS 2018.2" />
+                    <property role="2Ry0Am" value="MPS 2019.3" />
                   </node>
                 </node>
               </node>
@@ -195,7 +198,7 @@
       </node>
       <node concept="3_J27D" id="5HzhnywsebU" role="m$_w8">
         <node concept="3Mxwew" id="5HzhnywsecU" role="3MwsjC">
-          <property role="3MwjfP" value="0.1.0" />
+          <property role="3MwjfP" value="0.1.2" />
         </node>
       </node>
       <node concept="3_J27D" id="5HzhnywsecI" role="3s6cr7">
@@ -207,13 +210,13 @@
         <property role="2iUeEt" value="Bentley James Oakes" />
         <property role="2iUeEu" value="https://github.com/BentleyJOakes/EcoreExport" />
       </node>
-      <node concept="m$_yC" id="4zX0u0flaX2" role="m$_yJ">
+      <node concept="m$_yC" id="4OSXsDbzEnh" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:6WtY9M1bDO_" resolve="jetbrains.mps.ide.java" />
       </node>
-      <node concept="m$_yC" id="5Hzhnywsed2" role="m$_yJ">
+      <node concept="m$_yC" id="4OSXsDbzEnC" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="m$_yC" id="5Hzhnywsedd" role="m$_yJ">
+      <node concept="m$_yC" id="4OSXsDbzEnH" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
       <node concept="m$f5U" id="5Hzhnywsef1" role="m$_yh">
@@ -227,7 +230,7 @@
         <property role="TrG5h" value="EcoreExport" />
         <property role="3LESm3" value="e5732c45-10e0-4517-aae6-6bf45bf8a5b0" />
         <property role="2GAjPV" value="false" />
-        <property role="aoJFB" value="sources" />
+        <property role="aoJFB" value="eYcmk9QOli/sources" />
         <node concept="55IIr" id="5Hzhnywsef6" role="3LF7KH">
           <node concept="2Ry0Ak" id="4zX0u0flcMS" role="iGT6I">
             <property role="2Ry0Am" value="EcoreExport.msd" />
